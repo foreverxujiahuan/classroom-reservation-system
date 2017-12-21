@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	ul,li,a{
+		text-decoration: none;
+		list-style: none;
+		color: #fff;
+	}
+	body{
+		width:1440px;
+		height:1180px;
+		margin:0 auto;
+	}
+	.bg{
+		background: url(img/head_bg.png);
+		margin: 0 auto;
+		width: 1440px;
+		height: 200px;
+	}
+	#head{
+		width: 606px;
+		height: 200px;
+		margin: 0 auto;
+		
+		overflow: hidden;
+		
+	}
+	#head ul{
+		margin: 154px auto 0;
+		position: relative;
+	}
+	#head a{
+		width: 98px;
+		height: 46px;
+		float: left;
+		font-size: 30px;
+		font-family: '幼圆';
+		text-align: center;
+		line-height: 46px;
+		background: url(img/nav_bg.png) no-repeat;
+		
+	}
+	
+	#head .active{
+		width: 106px;
+		background: url(img/nav_bg.png) 0 -46px no-repeat;
+	}
+	#head #main{
+		font-size: 27px;
+	}
+	#head #room1{
+		position: absolute;
+		left: 260px;
+	}
+	#head #room2{
+		position: absolute;
+		right: 0;
+	}
+	#content{
+		width: 980px;
+		height: 886px;
+		background: #c1e9e5;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.chi
+	{
+		width:160px;
+		height:205px; 
+		background: url(img/chi.png) no-repeat;
+		margin-top:38px;
+		float:left;
+	}
+	.dec{
+		height: 63px;
+		font-size: 36px;
+		margin-top: 15px;
+		background: url(img/seat.png) 576px 0 no-repeat;
+	}
+	.dec li{
+		float: right;
+		font-family: "宋体";
+		color: #000;
+		padding-top: 4px;
+		margin-left: 120px;
+		margin-right: 40px;
+		font-weight: bold;
+	}
+	.time{
+		width: 394px;
+		height: 492px;
+		background: #c4c6d9;
+		border: 25px solid #ffccdd;
+		border-width: 25px 40px;
+		float: left;
+		margin-bottom: 30px;
+	}
+	.time .pick{
+		margin: 4px auto 0;
+		width: 245px;
+		height: 423px;
+		background: url(img/phone.png) no-repeat;
+	}
+	.time dl{
+		padding-top: 120px;
+		text-align: center;
+		font-weight: bold;
+	}
+	.time dl span{
+		font-size: 10px;
+		font-family: "黑体";
+	}
+	.time dt{
+		font-size: 18px;
+		font-family: "方正兰亭超细黑简体";
+	}
+	.time dd{
+		margin-top: 15px;
+		font-size: 15px;
+		font-family: "黑体";
+	}
+	.time a{
+		color: #000;
+	}
+	select{
+		margin-left: -5px;
+		border: none;
+  		border-radius:8px;
+		margin-top: 12px;
+		padding-right: 12px;
+		padding-left: 4px;
+		background: url(img/select.png) scroll right center no-repeat #ccc;
+		outline: none;
+		appearance:none;
+  	    -moz-appearance:none;
+  	    -webkit-appearance:none;
+	}
+	.choose{
+		width: 506px;
+		height: 492px;
+		float: right;
+		position: relative;
+		background: url(img/screen.png) center 45px no-repeat;
+		color:black;
+	}
+	
+	.choose ul{
+		margin: 20px;
+	}
+	.choose a{
+		width: 21px;
+		height: 12px;
+		display: block;
+		box-shadow: 0 7px 7px #2d2b36;
+		background: url(img/seat_bg.png) no-repeat;
+	}
+	.choose .fir{
+		position: absolute;
+		left: 56px;
+		top: 104px;
+		
+	}
+	.choose .fir a{
+		margin-bottom: 18px;
+	}
+	.choose .sec{
+		position: absolute;
+		left: 178px;
+		top: 60px;
+	}
+	.choose .sec a{
+		margin-bottom: 18px;
+	}
+	.choose .thi{
+		position: absolute;
+		left: 235px;
+		top: 60px;
+	}
+	.choose .thi a{
+		margin-bottom: 18px;
+	}
+	.choose .four{
+		position: absolute;
+		top: 108px;
+		right:105px;
+	}
+	.choose .four a{
+		margin-bottom: 10px;
+	}
+	.choose .fiv{
+		position: absolute;
+		right: 60px;
+		top: 108px;
+	}
+	.choose .fiv a{
+		margin-bottom: 10px;
+	}
+	
+	
+	.key{
+		width: 439px;
+		margin-right: 20px;
+		height: 200px;
+		border: 19px solid #9aa188;
+		float: left;
+		background: url(img/key.png) no-repeat;
+	
+	}
+	.key form{
+		width: 150px;
+		height: 209px;
+		margin: 0 auto;
+		
+		}
+	/*.key .qwe{
+		width: 76px;
+		background: none;
+		margin-left: 80px;
+		margin-top: 16px;
+		border: none;
+		outline: none;
+	}*/
+	.key .input_one{
+		margin-top: 48px;
+	}
+	.rule{
+		width: 448px;
+		height:268px;
+		float: right;
+		border: 15px solid #e2ffab;
+		background: #ff937d;
+		
+	}
+	.rule dl{
+		padding-top: 14px;
+		margin: 0 auto;
+		color: #fff;
+		font-weight:bold;
+		width: 234px;
+		height: 265px;
+		font-family: "黑体";
+		text-shadow: 0 7px 7px #000;
+		
+	}
+	.rule dt{
+		text-align: center;
+		font-size:32px;
+	}
+	.rule dd{
+		margin-top: 24px;
+		color: #f4c084;
+		font-size: 20px;
+	}
+	.foot{
+		height: 94px;
+		background:rgba(17,21,27,0.57);
+	}
+	.foot p
+	{
+		font-size:15px;
+		font-family: "宋体";
+		color:#fff;
+		padding-top:10px;
+	}
+ .one
+	{
+		margin-left:480px;
+	}
+.twoo
+	{
+		margin-left:560px;
+	}
+.threee
+	{
+	margin-left:700px;
+	}
